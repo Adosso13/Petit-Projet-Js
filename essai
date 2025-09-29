@@ -1,0 +1,91 @@
+   
+    <div id="operation-soustraction">
+    <p>sagiutfigyg</p>
+</div>
+
+<div id="operation-multiplication">
+    <p>jnnrgfjnvegrkwngreroijg</p>
+</div>
+
+<div id="operation-division">
+    <p>uhgtornegrbofngouerwfrefbhgetrfgoenr</p>
+</div>
+
+const btnaddition = document.getElementById("addition-opérateur")
+
+btnsoustraction.addEventListener("click", function () {
+    operationaddition.style.display = "block"
+    operationsoustraction.style.display = "none"
+    operationmultiplication.style.display = "none"
+    operationdivision.style.display = "none"
+})
+
+
+const btnsoustraction = document.getElementById("soustraction-opérateur")
+
+btnsoustraction.addEventListener("click", function () {
+    operationsoustraction.style.display = "block"
+    operationmultiplication.style.display = "none"
+    operationdivision.style.display = "none"
+    operationaddition.style.display = "none"
+})
+
+const btnmultiplication = document.getElementById("multiplication-opérateur")
+
+btnmultiplication.addEventListener("click", function () {
+    operationmultiplication.style.display = "block"
+    operationdivision.style.display = "none"
+    operationaddition.style.display = "none"
+    operationsoustraction.style.display = "none"
+})
+
+
+const btndivision = document.getElementById("division-opérateur")
+
+btndivision.addEventListener("click", function () {
+    operationdivision.style.display = "block"
+    operationaddition.style.display = "none"
+    operationsoustraction.style.display = "none"
+    operationmultiplication.style.display = "none"
+})
+
+
+
+const operationaddition = document.getElementById("operation-addition")
+
+const operationsoustraction = document.getElementById("operation-soustraction")
+operationsoustraction.style.display = "none"
+
+const operationmultiplication = document.getElementById("operation-multiplication")
+operationmultiplication.style.display = "none"
+
+const operationdivision = document.getElementById("operation-division")
+operationdivision.style.display = "none"
+
+
+
+
+
+
+
+
+
+//const addition = document.getElementById("operation-addition")
+
+//const soustraction = document.getElementById("operation-soustraction")
+//soustraction.style.display = "none"
+
+//const multiplication = document.getElementById("operation-multiplication")
+//multiplication.style.display = "none"
+
+//const division = document.getElementById("operation-division")
+//division.style.display = "none"
+
+
+//soustraction.addEventListener("click", function () {
+   // const addition = document.getElementById("operation-addition")
+   // soustraction.style.display = "block"
+  //  addition.style.display = "none"
+//})
+
+
